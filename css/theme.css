@@ -368,7 +368,10 @@ li {
   > li.nav-item-left-border.nav-item-left-border-remove:after {
   content: none;
 }
-
+.header-row-top{
+  border-top: 1px solid #4dbb6d;
+  margin-top:2px ;
+}
 @media (max-width: 575px) {
   #header .header-nav-top .nav > li:not(.d-none) {
     margin-right: 0;
@@ -2715,7 +2718,7 @@ html.sticky-header-enabled.sticky-header-active
   }
   #header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a,
   #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
-    color: #fff;
+    color: black;
   }
   #header
     .header-nav.header-nav-links.header-nav-force-light-text
